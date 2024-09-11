@@ -137,10 +137,10 @@
     if(isset($_POST["name"]) && isset($_POST["email"])  && isset($_POST["phone"])  && isset($_POST["message"])) {
 
     // Connect to the database
-    // $servername = "localhost";
-    // $username = "u756689048_damitha99";
-    // $password = "Imdj2023";
-    // $dbname = "u756689048_contactusdb";
+    $servername = "localhost";
+    $username = "u756689048_damitha99";
+    $password = "Imdj2023";
+    $dbname = "u756689048_contactusdb";
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
